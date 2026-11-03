@@ -1,0 +1,441 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CodeChill\\WEB-END\\BaseCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA5D057-E608-4A17-B58B-FABEADC300D9}|BaseCore.AuthService\\BaseCore.AuthService.csproj|d:\\codechill\\web-end\\basecore\\basecore.authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA5D057-E608-4A17-B58B-FABEADC300D9}|BaseCore.AuthService\\BaseCore.AuthService.csproj|solutionrelative:basecore.authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|d:\\codechill\\web-end\\basecore\\basecore.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|solutionrelative:basecore.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|d:\\codechill\\web-end\\basecore\\basecore.repository\\mysqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\mysqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|d:\\codechill\\web-end\\basecore\\basecore.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|solutionrelative:basecore.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19540157-8E18-4C2D-A482-34832430B612}|BaseCore.Services\\BaseCore.Services.csproj|d:\\codechill\\web-end\\basecore\\basecore.services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19540157-8E18-4C2D-A482-34832430B612}|BaseCore.Services\\BaseCore.Services.csproj|solutionrelative:basecore.services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|d:\\codechill\\web-end\\basecore\\basecore.apiservice\\controllers\\category2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|solutionrelative:basecore.apiservice\\controllers\\category2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3934463F-480E-4BE1-8796-E79F458CAEE7}|BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj|d:\\codechill\\web-end\\basecore\\basecore.apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3934463F-480E-4BE1-8796-E79F458CAEE7}|BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj|solutionrelative:basecore.apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA5D057-E608-4A17-B58B-FABEADC300D9}|BaseCore.AuthService\\BaseCore.AuthService.csproj|d:\\codechill\\web-end\\basecore\\basecore.authservice\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA5D057-E608-4A17-B58B-FABEADC300D9}|BaseCore.AuthService\\BaseCore.AuthService.csproj|solutionrelative:basecore.authservice\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|d:\\codechill\\web-end\\basecore\\basecore.apiservice\\controllers\\product2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|solutionrelative:basecore.apiservice\\controllers\\product2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|d:\\codechill\\web-end\\basecore\\basecore.repository\\efcore\\product2repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\efcore\\product2repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|d:\\codechill\\web-end\\basecore\\basecore.apiservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C2D3E4-F5A6-7890-BCDE-F12345678901}|BaseCore.APIService\\BaseCore.APIService.csproj|solutionrelative:basecore.apiservice\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3934463F-480E-4BE1-8796-E79F458CAEE7}|BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj|d:\\codechill\\web-end\\basecore\\basecore.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3934463F-480E-4BE1-8796-E79F458CAEE7}|BaseCore.ApiGateway\\BaseCore.ApiGateway.csproj|solutionrelative:basecore.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|d:\\codechill\\web-end\\basecore\\basecore.repository\\efcore\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\efcore\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|d:\\codechill\\web-end\\basecore\\basecore.repository\\efcore\\category2repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\efcore\\category2repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|d:\\codechill\\web-end\\basecore\\basecore.entities\\product2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|solutionrelative:basecore.entities\\product2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|d:\\codechill\\web-end\\basecore\\basecore.entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|solutionrelative:basecore.entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|d:\\codechill\\web-end\\basecore\\basecore.entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|solutionrelative:basecore.entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|d:\\codechill\\web-end\\basecore\\basecore.entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|solutionrelative:basecore.entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|d:\\codechill\\web-end\\basecore\\basecore.entities\\category2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|solutionrelative:basecore.entities\\category2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|d:\\codechill\\web-end\\basecore\\basecore.repository\\mysqldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\mysqldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|d:\\codechill\\web-end\\basecore\\basecore.entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|solutionrelative:basecore.entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|d:\\codechill\\web-end\\basecore\\basecore.entities\\basecore.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDA236EF-0483-4535-AD20-6B3FA474369C}|BaseCore.Entities\\BaseCore.Entities.csproj|solutionrelative:basecore.entities\\basecore.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1CD8F3-B7CA-4385-B68E-67B2DC77C6D4}|BaseCore.Common\\BaseCore.Common.csproj|d:\\codechill\\web-end\\basecore\\basecore.common\\basecore.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F1CD8F3-B7CA-4385-B68E-67B2DC77C6D4}|BaseCore.Common\\BaseCore.Common.csproj|solutionrelative:basecore.common\\basecore.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA5D057-E608-4A17-B58B-FABEADC300D9}|BaseCore.AuthService\\BaseCore.AuthService.csproj|d:\\codechill\\web-end\\basecore\\basecore.authservice\\basecore.authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FDA5D057-E608-4A17-B58B-FABEADC300D9}|BaseCore.AuthService\\BaseCore.AuthService.csproj|solutionrelative:basecore.authservice\\basecore.authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|d:\\codechill\\web-end\\basecore\\basecore.repository\\migrations\\20261021172540_initialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\migrations\\20261021172540_initialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|d:\\codechill\\web-end\\basecore\\basecore.repository\\migrations\\20261022010133_addproduct2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C747753-99CA-4281-BE7D-1711BA222237}|BaseCore.Repository\\BaseCore.Repository.csproj|solutionrelative:basecore.repository\\migrations\\20261022010133_addproduct2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.APIService\\Program.cs",
+              "RelativeDocumentMoniker": "BaseCore.APIService\\Program.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.APIService\\Program.cs",
+              "RelativeToolTip": "BaseCore.APIService\\Program.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:28:15.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "BaseCore.Services\\ICategoryService.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Services\\ICategoryService.cs",
+              "RelativeToolTip": "BaseCore.Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T15:52:14.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category2Controller.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.APIService\\Controllers\\Category2Controller.cs",
+              "RelativeDocumentMoniker": "BaseCore.APIService\\Controllers\\Category2Controller.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.APIService\\Controllers\\Category2Controller.cs",
+              "RelativeToolTip": "BaseCore.APIService\\Controllers\\Category2Controller.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T15:54:28.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.ApiGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "BaseCore.ApiGateway\\ocelot.json",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.ApiGateway\\ocelot.json",
+              "RelativeToolTip": "BaseCore.ApiGateway\\ocelot.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-21T16:10:04.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MySqlDbContext.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\MySqlDbContext.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\MySqlDbContext.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\MySqlDbContext.cs",
+              "RelativeToolTip": "BaseCore.Repository\\MySqlDbContext.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAUwFUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:24:33.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product2Repository.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\EFCore\\Product2Repository.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\EFCore\\Product2Repository.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\EFCore\\Product2Repository.cs",
+              "RelativeToolTip": "BaseCore.Repository\\EFCore\\Product2Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T00:47:47.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "BaseCore.AuthService\\Program.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.AuthService\\Program.cs",
+              "RelativeToolTip": "BaseCore.AuthService\\Program.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:33:20.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.APIService\\appsettings.json",
+              "RelativeDocumentMoniker": "BaseCore.APIService\\appsettings.json",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.APIService\\appsettings.json",
+              "RelativeToolTip": "BaseCore.APIService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-21T08:28:42.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20261022010133_AddProduct2.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\Migrations\\20261022010133_AddProduct2.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\Migrations\\20261022010133_AddProduct2.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\Migrations\\20261022010133_AddProduct2.cs",
+              "RelativeToolTip": "BaseCore.Repository\\Migrations\\20261022010133_AddProduct2.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T01:01:33.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "BaseCore.ApiGateway\\Program.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.ApiGateway\\Program.cs",
+              "RelativeToolTip": "BaseCore.ApiGateway\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:27:51.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.AuthService\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "BaseCore.AuthService\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.AuthService\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "BaseCore.AuthService\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T05:32:12.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product2Controller.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.APIService\\Controllers\\Product2Controller.cs",
+              "RelativeDocumentMoniker": "BaseCore.APIService\\Controllers\\Product2Controller.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.APIService\\Controllers\\Product2Controller.cs",
+              "RelativeToolTip": "BaseCore.APIService\\Controllers\\Product2Controller.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAuwJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T00:51:50.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\EFCore\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\EFCore\\CategoryRepository.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\EFCore\\CategoryRepository.cs",
+              "RelativeToolTip": "BaseCore.Repository\\EFCore\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T15:50:05.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category2Repository.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\EFCore\\Category2Repository.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\EFCore\\Category2Repository.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\EFCore\\Category2Repository.cs",
+              "RelativeToolTip": "BaseCore.Repository\\EFCore\\Category2Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T15:50:31.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product2.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\Product2.cs",
+              "RelativeDocumentMoniker": "BaseCore.Entities\\Product2.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\Product2.cs",
+              "RelativeToolTip": "BaseCore.Entities\\Product2.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T00:46:29.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\Product.cs",
+              "RelativeDocumentMoniker": "BaseCore.Entities\\Product.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\Product.cs",
+              "RelativeToolTip": "BaseCore.Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T00:46:35.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.APIService\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "BaseCore.APIService\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.APIService\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "BaseCore.APIService\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T15:54:32.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20261021172540_InitialDatabase.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\Migrations\\20261021172540_InitialDatabase.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\Migrations\\20261021172540_InitialDatabase.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\Migrations\\20261021172540_InitialDatabase.cs",
+              "RelativeToolTip": "BaseCore.Repository\\Migrations\\20261021172540_InitialDatabase.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:25:40.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BaseCore.Entities\\OrderDetail.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\OrderDetail.cs",
+              "RelativeToolTip": "BaseCore.Entities\\OrderDetail.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:10:25.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\Order.cs",
+              "RelativeDocumentMoniker": "BaseCore.Entities\\Order.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\Order.cs",
+              "RelativeToolTip": "BaseCore.Entities\\Order.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T17:10:31.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category2.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\Category2.cs",
+              "RelativeDocumentMoniker": "BaseCore.Entities\\Category2.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\Category2.cs",
+              "RelativeToolTip": "BaseCore.Entities\\Category2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T15:48:02.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MySqlDbContextFactory.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\MySqlDbContextFactory.cs",
+              "RelativeDocumentMoniker": "BaseCore.Repository\\MySqlDbContextFactory.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Repository\\MySqlDbContextFactory.cs",
+              "RelativeToolTip": "BaseCore.Repository\\MySqlDbContextFactory.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:27:35.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\User.cs",
+              "RelativeDocumentMoniker": "BaseCore.Entities\\User.cs",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\User.cs",
+              "RelativeToolTip": "BaseCore.Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:24:33.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseCore.Entities.csproj",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\BaseCore.Entities.csproj",
+              "RelativeDocumentMoniker": "BaseCore.Entities\\BaseCore.Entities.csproj",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Entities\\BaseCore.Entities.csproj",
+              "RelativeToolTip": "BaseCore.Entities\\BaseCore.Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-21T08:24:33.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseCore.Common.csproj",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Common\\BaseCore.Common.csproj",
+              "RelativeDocumentMoniker": "BaseCore.Common\\BaseCore.Common.csproj",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.Common\\BaseCore.Common.csproj",
+              "RelativeToolTip": "BaseCore.Common\\BaseCore.Common.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-21T08:24:33.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BaseCore.AuthService.csproj",
+              "DocumentMoniker": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.AuthService\\BaseCore.AuthService.csproj",
+              "RelativeDocumentMoniker": "BaseCore.AuthService\\BaseCore.AuthService.csproj",
+              "ToolTip": "D:\\CodeChill\\WEB-END\\BaseCore\\BaseCore.AuthService\\BaseCore.AuthService.csproj",
+              "RelativeToolTip": "BaseCore.AuthService\\BaseCore.AuthService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-21T08:24:33.775Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[Bb]in/
+[Oo]bj/
+.vs/
+.idea/
+.vscode/
+.claude/
+node_modules/
+*.user
+*.suo

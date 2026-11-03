@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -l \"BsonId\\\\|BsonRepresentation\\\\|MongoDB\" \"c:/Users/ndngu/SOURCE/BaseCore/BaseCore/BaseCore/BaseCore.Entities/\"*.cs)",
+      "Bash(cd /tmp)",
+      "Bash(cat)",
+      "Read(//c/Users/ndngu/AppData/Local/Temp/hashapp/**)",
+      "Bash(dotnet run:*)",
+      "Bash(dotnet tool:*)",
+      "Bash(dotnet ef:*)",
+      "Bash(grep -A5 \"CreateTable.*Users\" \"c:/Users/ndngu/SOURCE/BaseCore/BaseCore/BaseCore/BaseCore.Repository/Migrations/\"*InitialCreate.cs)",
+      "Bash(dotnet build:*)",
+      "Bash(grep -v \"obj\\\\\\\\\")"
+    ]
+  }
+}

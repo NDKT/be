@@ -1,0 +1,87 @@
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.deps.json
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.dll
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.pdb
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.AssemblyReference.cache
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfoInputs.cache
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfo.cs
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.CoreCompileInputs.cache
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.dll
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\obj\Debug\net8.0\refint\BaseCore.Common.dll
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.pdb
+D:\Code\CSharp\RobotVibot_WithoutChange-main\RobotVibot_WithoutChange-main\BaseCore.Common\obj\Debug\net8.0\ref\BaseCore.Common.dll
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.deps.json
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.dll
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.pdb
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.AssemblyReference.cache
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfoInputs.cache
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfo.cs
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.CoreCompileInputs.cache
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.dll
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\obj\Debug\net8.0\refint\BaseCore.Common.dll
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.pdb
+D:\Code\CSharp\RobotVibot_WithoutChange-main\BaseCore\BaseCore.Common\obj\Debug\net8.0\ref\BaseCore.Common.dll
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.deps.json
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.dll
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.pdb
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.AssemblyReference.cache
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfoInputs.cache
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfo.cs
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.CoreCompileInputs.cache
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.dll
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\refint\BaseCore.Common.dll
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.pdb
+C:\Users\pc\Downloads\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\ref\BaseCore.Common.dll
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.deps.json
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.dll
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.pdb
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.AssemblyReference.cache
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfoInputs.cache
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfo.cs
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.CoreCompileInputs.cache
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.dll
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\refint\BaseCore.Common.dll
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.pdb
+C:\Users\ndngu\SOURCE\BaseCore\BaseCore\BaseCore\BaseCore.Common\obj\Debug\net8.0\ref\BaseCore.Common.dll
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.deps.json
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.dll
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.pdb
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.AssemblyReference.cache
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfoInputs.cache
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfo.cs
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.CoreCompileInputs.cache
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.dll
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\obj\Debug\net8.0\refint\BaseCore.Common.dll
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.pdb
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\obj\Debug\net8.0\ref\BaseCore.Common.dll
+D:\study\nam 3\cong nghe web\ThayAnWeb\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.307DD059.Up2Date
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.deps.json
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.dll
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.pdb
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfo.cs
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.dll
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\obj\Debug\net8.0\refint\BaseCore.Common.dll
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.pdb
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\obj\Debug\net8.0\ref\BaseCore.Common.dll
+C:\Users\ADMIN\Downloads\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.307DD059.Up2Date
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.deps.json
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.dll
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\bin\Debug\net8.0\BaseCore.Common.pdb
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.AssemblyReference.cache
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfoInputs.cache
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.AssemblyInfo.cs
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.csproj.CoreCompileInputs.cache
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.dll
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\obj\Debug\net8.0\refint\BaseCore.Common.dll
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.Common.pdb
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\obj\Debug\net8.0\ref\BaseCore.Common.dll
+D:\CodeChill\WEB-END\BaseCore\BaseCore.Common\obj\Debug\net8.0\BaseCore.307DD059.Up2Date
