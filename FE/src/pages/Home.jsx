@@ -2,56 +2,53 @@ import { useEffect, useState } from 'react';
 import HeroSlider from '../components/HeroSlider';
 import ProductSection from '../components/ProductSection';
 import productApi from '../api/productApi';
-
-// ✅ Danh sách Categories lấy từ Backend
-const CATEGORIES = [
-  { id: 1, name: "Electronics" },
-  { id: 2, name: "Clothing" },
-  { id: 3, name: "Books" },
-  { id: 4, name: "Home & Garden" },
-  { id: 5, name: "Sports" },
-  { id: 6, name: "Toys & Games" },
-  { id: 7, name: "Beauty & Health" },
-  { id: 8, name: "Automotive" },
-  { id: 9, name: "Furniture" },
-  { id: 10, name: "Pet Supplies" },
-  { id: 11, name: "Office Supplies" },
-  { id: 12, name: "Food & Beverage" },
-  { id: 13, name: "Jewelry" },
-  { id: 14, name: "Music & Instruments" },
-  { id: 15, name: "Baby Products" },
-];
+import categoryApi from '../api/categoryApi'; // ✅ Import API Category
 
 const Home = () => {
   const [products, setProducts] = useState([]);
+  const [categories, setCategories] = useState([]); // ✅ State lưu categories
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchProducts = async () => {
+    const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await productApi.getAll();
         
-        // Xử lý dữ liệu trả về (phân trang hoặc mảng trực tiếp)
-        if (response.data && Array.isArray(response.data.items)) {
-          setProducts(response.data.items);
-        } else if (Array.isArray(response.data)) {
-          setProducts(response.data);
+        // ✅ Gọi song song 2 API để tăng tốc độ
+        const [productRes, categoryRes] = await Promise.all([
+          productApi.getAll(),
+          categoryApi.getAll()
+        ]);
+        
+        // --- Xử lý dữ liệu Sản phẩm (có thể bị phân trang) ---
+        if (productRes.data && Array.isArray(productRes.data.items)) {
+          setProducts(productRes.data.items);
+        } else if (Array.isArray(productRes.data)) {
+          setProducts(productRes.data);
         } else {
           setProducts([]);
         }
+
+        // --- Xử lý dữ liệu Danh mục (thường trả về mảng trực tiếp) ---
+        if (Array.isArray(categoryRes.data)) {
+          setCategories(categoryRes.data);
+        } else if (categoryRes.data && Array.isArray(categoryRes.data.items)) {
+          setCategories(categoryRes.data.items);
+        } else {
+          setCategories([]);
+        }
+        
         setError(null);
       } catch (err) {
-        console.error('❌ Lỗi lấy sản phẩm:', err);
-        setError('Không thể tải sản phẩm.');
-        setProducts([]);
+        console.error('❌ Lỗi lấy dữ liệu:', err);
+        setError('Không thể tải dữ liệu. Vui lòng kiểm tra Backend.');
       } finally {
         setLoading(false);
       }
     };
 
-    fetchProducts();
+    fetchData();
   }, []);
 
   if (loading) {
@@ -59,7 +56,7 @@ const Home = () => {
       <div className="flex items-center justify-center min-h-[60vh]">
         <div className="text-center">
           <div className="inline-block w-12 h-12 border-4 border-gold border-t-transparent rounded-full animate-spin mb-4"></div>
-          <p className="text-gray-600">Đang tải sản phẩm...</p>
+          <p className="text-gray-600">Đang tải dữ liệu...</p>
         </div>
       </div>
     );
@@ -79,25 +76,32 @@ const Home = () => {
     <>
       <HeroSlider />
 
-      {/* ✅ Tự động lặp qua các Category để render Section */}
-      {CATEGORIES.map((category) => {
+      {/* ✅ Lặp qua danh sách Categories ĐỘNG lấy từ Backend */}
+      {categories.map((category) => {
         // Lọc sản phẩm thuộc category hiện tại
         const categoryProducts = products.filter(
           (p) => p.categoryId === category.id
         );
 
-        // Nếu danh mục này không có sản phẩm nào thì ẩn đi (tránh giao diện bị trống)
+        // Nếu danh mục này không có sản phẩm nào thì ẩn đi
         if (categoryProducts.length === 0) return null;
 
         return (
           <ProductSection
             key={category.id}
-            title={category.name} // Hiển thị tên Category (VD: Electronics)
+            title={category.name} // ✅ Lấy tên động (Electronics, Clothing...)
             products={categoryProducts}
-            categoryLink={`/danh-muc/${category.id}`} // Link chuyển đến trang xem tất cả của danh mục đó
+            categoryLink={`/danh-muc/${category.id}`} 
           />
         );
       })}
+
+      {/* Thông báo nếu không có bất kỳ sản phẩm nào */}
+      {categories.length > 0 && products.length === 0 && (
+        <div className="text-center py-20 text-gray-500">
+          Hiện chưa có sản phẩm nào trong cửa hàng.
+        </div>
+      )}
     </>
   );
 };

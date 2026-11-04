@@ -6,6 +6,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import ProductCategory from './pages/ProductCategory';
 import ProductDetail from './pages/ProductDetail';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main className="min-h-[60vh]">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/danh-muc/:categoryId" element={<ProductCategory />} />
           <Route path="/san-pham/:productId" element={<ProductDetail />} />
           <Route path="*" element={
