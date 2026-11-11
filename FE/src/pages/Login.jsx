@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import authApi from '../api/authApi';
-import useAuthStore from '../store/authStore'; // ✅ Import Zustand store
+import useAuthStore from '../store/authStore'; // ✅ Dùng Zustand
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -10,7 +10,7 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   
-  const login = useAuthStore((state) => state.login); // ✅ Lấy action login
+  const login = useAuthStore((state) => state.login);
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -20,16 +20,21 @@ const Login = () => {
     try {
       const response = await authApi.login({ username, password });
       
-      // Tùy thuộc backend trả về (check log để chắc chắn)
-      const token = response.data.token || response.data;
-      const userData = response.data.user || { name: username, userName: username };
+      // ✅ Dữ liệu trả về từ Backend (LoginResponse)
+      const data = response.data;
 
-      if (!token) throw new Error("Không nhận được token từ server");
+      if (!data.token) throw new Error("Không nhận được token từ server");
 
-      // ✅ Gọi Zustand action (nó tự lưu localStorage + update Header)
-      login(token, userData);
+      // ✅ Lưu vào Zustand: token và object user (chứa các trường từ Backend)
+      login(data.token, {
+        id: data.userId,
+        username: data.username,
+        name: data.name,
+        email: data.email,
+        role: data.role
+      });
 
-      // Chuyển hướng ngay, KHÔNG cần reload
+      // Chuyển hướng (Không cần reload trang vì Zustand tự cập nhật Header)
       navigate('/');
       
     } catch (err) {

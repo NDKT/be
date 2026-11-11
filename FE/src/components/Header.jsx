@@ -120,13 +120,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Bottom Header (Sub-nav) - Vẫn giữ lại nếu bạn muốn hiển thị thêm gì đó */}
-      <div className="flex justify-center py-2 border-b border-gray-100 bg-white min-h-[40px]">
-         <ul className="flex flex-row flex-nowrap items-center gap-8">
-            <li><NavLink to="/danh-muc/5" className="text-[13px] font-medium hover:text-gold transition-colors">SẢN PHẨM BÁN CHẠY</NavLink></li>
-            <li><NavLink to="/danh-muc/6" className="text-[13px] font-medium hover:text-gold transition-colors">PHỤ KIỆN</NavLink></li>
-         </ul>
-      </div>
+    
     </header>
   );
 };

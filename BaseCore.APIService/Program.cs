@@ -1,9 +1,10 @@
+using BaseCore.Repository;
+using BaseCore.Repository.EFCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using BaseCore.Repository;
-using BaseCore.Repository.EFCore;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -77,6 +78,18 @@ builder.Services.AddScoped<IOrderRepositoryEF, OrderRepositoryEF>();
 builder.Services.AddScoped<IOrderDetailRepositoryEF, OrderDetailRepositoryEF>();
 builder.Services.AddScoped<ICategory2RepositoryEF, Category2RepositoryEF>();
 builder.Services.AddScoped<IProduct2RepositoryEF, Product2RepositoryEF>();
+
+
+
+builder.Services.AddScoped<IProductVariantRepositoryEF, ProductVariantRepositoryEF>();
+builder.Services.AddScoped<IProductImageRepositoryEF, ProductImageRepositoryEF>();
+builder.Services.AddScoped<ICartRepositoryEF, CartRepositoryEF>();
+builder.Services.AddScoped<ICartItemRepositoryEF, CartItemRepositoryEF>();
+builder.Services.AddScoped<IBannerRepositoryEF, BannerRepositoryEF>();
+builder.Services.AddScoped<IReviewRepositoryEF, ReviewRepositoryEF>();
+builder.Services.AddScoped<IShippingAddressRepositoryEF, ShippingAddressRepositoryEF>();
+
+
 
 // JWT Authentication
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"] ?? "YourSecretKeyForAuthenticationShouldBeLongEnough");

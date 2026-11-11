@@ -1,14 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using BaseCore.Entities;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace BaseCore.Repository.EFCore
 {
-    /// <summary>
-    /// Order Repository using Entity Framework Core
-    /// </summary>
     public interface IOrderRepositoryEF : IRepository<Order>
     {
-        Task<List<Order>> GetByUserAsync(Guid userId);
+        Task<List<Order>> GetByUserAsync(string userId);
         Task<Order?> GetWithDetailsAsync(int orderId);
     }
 
@@ -18,10 +18,14 @@ namespace BaseCore.Repository.EFCore
         {
         }
 
-        public async Task<List<Order>> GetByUserAsync(Guid userId)
+        public async Task<List<Order>> GetByUserAsync(string userId)
         {
             return await _dbSet
                 .Where(o => o.UserId == userId)
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Product)
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Variant) // Lấy Size, Color
                 .OrderByDescending(o => o.OrderDate)
                 .ToListAsync();
         }
@@ -29,13 +33,15 @@ namespace BaseCore.Repository.EFCore
         public async Task<Order?> GetWithDetailsAsync(int orderId)
         {
             return await _dbSet
+                .Include(o => o.User)
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Product)
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Variant) // Lấy Size, Color
                 .FirstOrDefaultAsync(o => o.Id == orderId);
         }
     }
 
-    /// <summary>
-    /// OrderDetail Repository using Entity Framework Core
-    /// </summary>
     public interface IOrderDetailRepositoryEF : IRepository<OrderDetail>
     {
         Task<List<OrderDetail>> GetByOrderAsync(int orderId);
@@ -52,6 +58,7 @@ namespace BaseCore.Repository.EFCore
             return await _dbSet
                 .Where(od => od.OrderId == orderId)
                 .Include(od => od.Product)
+                .Include(od => od.Variant) // Lấy Size, Color
                 .ToListAsync();
         }
     }

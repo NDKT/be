@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import ProductCategory from './pages/ProductCategory';
 import ProductDetail from './pages/ProductDetail';
 import Login from './pages/Login';
+import Register from './pages/Register'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/danh-muc/:categoryId" element={<ProductCategory />} />
           <Route path="/san-pham/:productId" element={<ProductDetail />} />
+          <Route path="/register" element={<Register />} />
           <Route path="*" element={
             <div className="py-24 text-center">
               <h1 className="text-4xl font-bold mb-4">404</h1>
